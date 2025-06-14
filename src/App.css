@@ -1,0 +1,54 @@
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.timer-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timer-display {
+  font-size: 3rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.timer-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.timer-button.start {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.timer-button.pause {
+  background-color: #f39c12;
+  color: white;
+}
+
+.timer-button.reset {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.timer-button:hover {
+  opacity: 0.9;
+}
